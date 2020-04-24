@@ -103,7 +103,7 @@
 , jquery =
   { dependencies = [ "console", "effect", "foreign", "web-dom" ]
   , repo = "https://github.com/purescript-contrib/purescript-jquery.git"
-  , version = "v5.0.0"
+  , version = "master"
   }
 , machines =
   { dependencies =

@@ -16,7 +16,7 @@
 , mysql =
   { dependencies = [ "aff", "js-date", "simple-json" ]
   , repo = "https://github.com/oreshinya/purescript-mysql.git"
-  , version = "v4.1.0"
+  , version = "master"
   }
 , nodemailer =
   { dependencies = [ "aff", "node-streams", "simple-json" ]

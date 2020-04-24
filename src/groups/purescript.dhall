@@ -14,12 +14,12 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-arrays.git"
-  , version = "ps-0.14"
+  , version = "master"
   }
 , assert =
   { dependencies = [ "console", "effect", "prelude" ]
-  , repo = "https://github.com/purescript/purescript-assert.git"
-  , version = "v4.1.0"
+  , repo = "https://github.com/kl0tl/purescript-assert.git"
+  , version = "no-foreign-primes"
   }
 , bifunctors =
   { dependencies = [ "newtype", "prelude" ]
@@ -449,7 +449,7 @@
 , refs =
   { dependencies = [ "effect", "prelude" ]
   , repo = "https://github.com/purescript/purescript-refs.git"
-  , version = "v4.1.0"
+  , version = "master"
   }
 , semirings =
   { dependencies = [ "foldable-traversable", "lists", "newtype", "prelude" ]
@@ -458,8 +458,8 @@
   }
 , st =
   { dependencies = [ "partial", "prelude", "tailrec", "unsafe-coerce" ]
-  , repo = "https://github.com/purescript/purescript-st.git"
-  , version = "ps-0.14"
+  , repo = "https://github.com/kl0tl/purescript-st.git"
+  , version = "no-foreign-primes"
   }
 , strings =
   { dependencies =
@@ -481,7 +481,7 @@
     , "unsafe-coerce"
     ]
   , repo = "https://github.com/purescript/purescript-strings.git"
-  , version = "v4.0.1"
+  , version = "master"
   }
 , tailrec =
   { dependencies =
